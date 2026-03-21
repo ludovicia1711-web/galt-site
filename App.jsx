@@ -1,20 +1,19 @@
-import React from "react";
 export default function AIAgentsWebsite() {
   const services = [
     {
       title: "Classification des mails",
       description:
-        "Tri automatique des emails, catégorisation des demandes et priorisation des messages pour gagner du temps.",
+        "Tri automatique des emails, catégorisation des demandes et priorisation des messages importants pour faire gagner du temps aux entreprises.",
     },
     {
       title: "Réponse automatique support client",
       description:
-        "Réponses automatiques aux messages clients et support, avec orientation vers la bonne action ou la bonne personne.",
+        "Support simplifié aux messages clients et support pour améliorer le suivi, gagner du temps et mieux orienter les demandes.",
     },
     {
-      title: "Agent IA tchat box et WhatsApp",
+      title: "Agent IA site et WhatsApp",
       description:
-        "Mise en place d'un agent IA sur votre site ou via WhatsApp pour répondre aux questions et qualifier les besoins.",
+        "Mise en place d’un agent IA sur votre site ou via WhatsApp pour répondre aux questions, qualifier les besoins et faciliter la prise de contact.",
     },
   ];
 
@@ -31,9 +30,7 @@ export default function AIAgentsWebsite() {
         <div className="mx-auto max-w-6xl px-6 py-5 flex items-center justify-between">
           <div>
             <div className="text-xl font-bold">GALT</div>
-            <div className="text-sm text-slate-500">
-              Solutions d'agents IA pour simplifier le quotidien des PME
-            </div>
+            <div className="text-sm text-slate-500">Solutions d'agents IA pour simplifier le quotidien des entreprises.</div>
           </div>
           <nav className="hidden md:flex gap-6 text-sm">
             <a href="#services" className="hover:underline">Services</a>
@@ -50,19 +47,17 @@ export default function AIAgentsWebsite() {
             Solutions IA simples pour les entreprises
           </div>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Je propose des solutions d'agents IA pour simplifier le quotidien des entreprises.
+            Des agents IA pour simplifier le quotidien des entreprises.
           </h1>
           <p className="mt-6 text-lg text-slate-600 leading-8">
-            Je crée des solutions d'agents IA pour la classification des mails, les réponses automatiques
-            au support client, les agents IA pour tchat box sur site ou WhatsApp, et l'automatisation
-            des tâches internes.
+            Je crée des solutions d’agents IA pour la classification des mails, les réponses automatiques au support client, les agents IA sur site ou WhatsApp, et l’automatisation des tâches internes.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#contact"
               className="rounded-2xl bg-slate-900 text-white px-6 py-3 text-sm font-medium shadow-sm"
             >
-              Demander un échange
+              Parler de votre besoin
             </a>
             <a
               href="#services"
@@ -78,9 +73,7 @@ export default function AIAgentsWebsite() {
           <div className="rounded-2xl bg-white p-5 border border-slate-200 space-y-4">
             <div>
               <div className="text-sm text-slate-500">Client</div>
-              <div className="font-medium">
-                "Je veux mieux gérer mes emails, mon support client et les demandes reçues sur mon site."
-              </div>
+              <div className="font-medium">"Je veux mieux gérer mes emails, mon support client et les demandes reçues sur mon site."</div>
             </div>
             <div>
               <div className="text-sm text-slate-500">Agent IA</div>
@@ -91,7 +84,7 @@ export default function AIAgentsWebsite() {
             <div className="grid grid-cols-2 gap-4 pt-2">
               <div className="rounded-2xl bg-slate-50 p-4 border border-slate-200">
                 <div className="text-2xl font-bold">24/7</div>
-                <div className="text-sm text-slate-500">Support simplifié</div>
+                <div className="text-sm text-slate-500">Réponses automatiques</div>
               </div>
               <div className="rounded-2xl bg-slate-50 p-4 border border-slate-200">
                 <div className="text-2xl font-bold">+ simple</div>
@@ -106,7 +99,7 @@ export default function AIAgentsWebsite() {
         <div className="max-w-2xl mb-10">
           <h2 className="text-3xl font-bold">Services</h2>
           <p className="mt-4 text-slate-600 leading-7">
-            Des solutions concrètes pour faire gagner du temps, mieux organiser les demandes et simplifier le quotidien.
+            Des solutions concrètes pour mieux gérer les demandes, automatiser certaines tâches répétitives et simplifier le quotidien.
           </p>
         </div>
 
@@ -125,14 +118,10 @@ export default function AIAgentsWebsite() {
           <div>
             <h2 className="text-3xl font-bold">À propos</h2>
             <p className="mt-5 text-slate-600 leading-8">
-              J'aide les entreprises à utiliser l'intelligence artificielle de façon simple, utile et concrète.
-              Mon objectif est de proposer des solutions qui simplifient le quotidien, réduisent les tâches répétitives
-              et améliorent le traitement des demandes.
+              Je propose des solutions d’agents IA concrètes pour aider les entreprises à gagner du temps, mieux traiter leurs demandes et automatiser certaines tâches répétitives.
             </p>
             <p className="mt-4 text-slate-600 leading-8">
-              Je me forme en continu à l'automatisation, aux outils no-code et à l'intelligence artificielle appliquée
-              aux besoins concrets des entreprises. Mon approche est simple : comprendre votre besoin, proposer une
-              solution claire, puis mettre en place un agent IA utile, fiable et facile à utiliser.
+              Je me forme en continu à l’automatisation, aux outils no-code et à l’intelligence artificielle appliquée aux besoins concrets des entreprises. Mon approche est simple : comprendre votre besoin, concevoir une solution claire, puis mettre en place un système utile, pratique et facile à utiliser.
             </p>
           </div>
 
@@ -145,15 +134,11 @@ export default function AIAgentsWebsite() {
               </div>
               <div>
                 <div className="font-semibold">Spécialité</div>
-                <div className="text-slate-600">
-                  Solutions d'agents IA pour simplifier le quotidien des PME
-                </div>
+                <div className="text-slate-600">Solutions d’agents IA pour simplifier le quotidien des entreprises</div>
               </div>
               <div>
                 <div className="font-semibold">Objectif</div>
-                <div className="text-slate-600">
-                  Simplifier le quotidien des entreprises grâce à des solutions IA utiles, claires et concrètes.
-                </div>
+                <div className="text-slate-600">Simplifier le quotidien des entreprises grâce à des solutions IA utiles, claires et concrètes.</div>
               </div>
             </div>
           </div>
@@ -164,7 +149,7 @@ export default function AIAgentsWebsite() {
         <div className="max-w-2xl mb-10">
           <h2 className="text-3xl font-bold">Comment ça se passe</h2>
           <p className="mt-4 text-slate-600 leading-7">
-            Une méthode simple pour passer d'un besoin métier à une solution IA opérationnelle.
+            Une méthode simple pour passer d’un besoin métier à une solution IA utile et opérationnelle.
           </p>
         </div>
 
@@ -183,12 +168,12 @@ export default function AIAgentsWebsite() {
           <div>
             <h2 className="text-3xl font-bold">Parlons de votre projet</h2>
             <p className="mt-4 text-slate-300 leading-8">
-              Vous voulez automatiser une partie de votre activité avec un agent IA ?
-              Contactez-moi pour échanger sur votre besoin.
+              Vous voulez automatiser une partie de votre activité, mieux gérer vos demandes ou mettre en place un agent IA adapté à votre entreprise ? Contactez-moi pour échanger sur votre besoin.
             </p>
             <div className="mt-8 space-y-3 text-slate-300">
               <div>Email : ludovic.ia1711@gmail.com</div>
-              <div>LinkedIn : À ajouter plus tard</div>
+              <div>Téléphone : Sur demande</div>
+              <div>LinkedIn : Disponible sur demande</div>
             </div>
           </div>
 
@@ -226,8 +211,11 @@ export default function AIAgentsWebsite() {
                 type="submit"
                 className="w-full rounded-2xl bg-slate-900 text-white px-6 py-3 text-sm font-medium"
               >
-                Envoyer ma demande
+                Demander un devis ou un échange
               </button>
+              <p className="text-xs text-slate-500 leading-6">
+                Les demandes envoyées via ce formulaire sont reçues directement par email.
+              </p>
             </form>
           </div>
         </div>

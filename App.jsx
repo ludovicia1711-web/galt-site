@@ -175,68 +175,27 @@ export default function AIAgentsWebsite() {
         </div>
       </section>
 
-    <section id="contact" className="bg-slate-900 text-white">
-  <div className="mx-auto max-w-6xl px-6 py-16 grid lg:grid-cols-2 gap-10">
-    <div>
-      <h2 className="text-3xl font-bold">Parlons de votre projet</h2>
-      <p className="mt-4 text-slate-300 leading-8">
-        Vous voulez automatiser une partie de votre activité, mieux gérer vos demandes ou mettre en place un agent IA adapté à votre entreprise ? Contactez-moi pour échanger sur votre besoin.
-      </p>
+      <section id="contact" className="bg-slate-900 text-white">
+        <div className="mx-auto max-w-6xl px-6 py-16 grid lg:grid-cols-2 gap-10">
+          <div>
+            <h2 className="text-3xl font-bold">Parlons de votre projet</h2>
+            <p className="mt-4 text-slate-300 leading-8">
+              Vous voulez automatiser une partie de votre activité, mieux gérer vos demandes ou mettre en place un agent IA adapté à votre entreprise ? Contactez-moi pour échanger sur votre besoin.
+            </p>
 
-      <div className="mt-8 space-y-3 text-slate-300">
-        <div>Email : ludovic.ia1711@gmail.com</div>
-        <div>WhatsApp : 07 68 70 97 39</div>
-        <a
-          href="https://wa.me/33768709739?text=Bonjour%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20solutions%20IA"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block rounded-2xl border border-slate-300 px-6 py-3 text-sm font-medium"
-        >
-          Me contacter sur WhatsApp
-        </a>
-      </div>
-    </div>
-
-    <div className="rounded-3xl bg-white text-slate-900 p-8">
-      <form action="https://formspree.io/f/xpqynkod" method="POST" className="space-y-4">
-        <div>
-          <label className="text-sm font-medium">Nom</label>
-          <input
-            name="name"
-            className="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none"
-            placeholder="Votre nom"
-            required
-          />
-        </div>
-        <div>
-          <label className="text-sm font-medium">Email</label>
-          <input
-            type="email"
-            name="email"
-            className="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none"
-            placeholder="Votre email"
-            required
-          />
-        </div>
-        <div>
-          <label className="text-sm font-medium">Besoin</label>
-          <textarea
-            name="message"
-            className="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none min-h-[130px]"
-            placeholder="Décrivez votre besoin"
-            required
-          />
-        </div>
-        <button
-          type="submit"
-          className="w-full rounded-2xl bg-slate-900 text-white px-6 py-3 text-sm font-medium"
-        >
-          Demander un devis ou un échange
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
+            <div className="mt-8 space-y-3 text-slate-300">
+              <div>Email : ludovic.ia1711@gmail.com</div>
+              <div>WhatsApp : 07 68 70 97 39</div>
+              <a
+                href="https://wa.me/33768709739?text=Bonjour%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20solutions%20IA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-2xl border border-slate-300 px-6 py-3 text-sm font-medium"
+              >
+                Me contacter sur WhatsApp
+              </a>
+            </div>
+          </div>
 
           <div className="rounded-3xl bg-white text-slate-900 p-8">
             <form action="https://formspree.io/f/xpqynkod" method="POST" className="space-y-4">
